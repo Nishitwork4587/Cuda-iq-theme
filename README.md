@@ -25,14 +25,11 @@
 
 
 
+1st: change icon on website to new design
 
+2nd: slider section : change slider style and add more functionality in slider section
 
-
-change icon on website to new design
-
-add custom content section to add multiple blocks on section
-
-change slider style and add more functionality in slider section
+3rd: add custom content section to add multiple blocks on section
 
 add product tab section for product to show multiple categories on single section
 
