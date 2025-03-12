@@ -19,3 +19,20 @@
 9.0.0
 
 10.0.0
+
+
+
+
+
+
+
+
+
+change icon on website to new design
+
+add custom content section to add multiple blocks on section
+
+change slider style and add more functionality in slider section
+
+add product tab section for product to show multiple categories on single section
+
