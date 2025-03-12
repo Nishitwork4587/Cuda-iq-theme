@@ -36,3 +36,4 @@ change slider style and add more functionality in slider section
 
 add product tab section for product to show multiple categories on single section
 
+add new after-before section in theme 
