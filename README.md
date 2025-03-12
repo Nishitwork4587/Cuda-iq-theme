@@ -27,6 +27,8 @@
 
 1st: change icon on website to new design
 
+header design : change the menu design and layout
+
 2nd: slider section : change slider style and add more functionality in slider section
 
 3rd: add custom content section to add multiple blocks on section
