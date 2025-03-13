@@ -28,6 +28,8 @@
 1st: change icon on website to new design
 
 header design : change the menu design and layout
+                doing sticky header so add style if first section is image or banner then header height is 0 so it's show on top of image and banner and 
+                if first section is not image or banner then header height is 100%
 
 2nd: slider section : change slider style and add more functionality in slider section
 
