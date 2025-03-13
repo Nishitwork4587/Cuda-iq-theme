@@ -55,7 +55,7 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-  {%- if section.settings.sticky_header_type == "reduce-logo-size" -%}
+  {%- if section.settings.sticky_header_type == "reduce-logo-size" or section.settings.sticky_header_type == "always" -%}
     .gradient{
       background-color: transparent;
     }
