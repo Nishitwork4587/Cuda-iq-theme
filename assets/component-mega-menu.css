@@ -23,7 +23,13 @@
 .header-wrapper--border-bottom .mega-menu__content {
   border-top: 0;
 }
-
+.mega-menu__content{
+  width: 95%;
+  max-width: 120rem;
+  background: white;
+  margin: auto;
+  border-radius: 0 0 15px 15px;
+}
 .js .mega-menu__content {
   opacity: 0;
   transform: translateY(-1.5rem);
