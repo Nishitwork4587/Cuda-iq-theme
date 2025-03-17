@@ -56,9 +56,9 @@
     }
   }
   {%- if section.settings.sticky_header_type == "reduce-logo-size" or section.settings.sticky_header_type == "always" or section.settings.sticky_header_type == "none" or section.settings.sticky_header_type == "on-scroll-up" -%}
-    /* .gradient{
+    .transparent{
       background-color: transparent;
-    } */
+    }
     .top-sticky-header{
       margin: auto;
       margin-top: 1%;
@@ -89,7 +89,7 @@
 
 <{{ header_tag }}
   {% if header_tag == 'sticky-header' %}
-    data-sticky-type="{{ section.settings.sticky_header_type }}"
+    data-sticky-type="{{ section.settings.sticky_header_type }}" class="transparent"
   {% endif %}
   class="header-wrapper gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}"
 >
