@@ -89,9 +89,9 @@
 
 <{{ header_tag }}
   {% if header_tag == 'sticky-header' %}
-    data-sticky-type="{{ section.settings.sticky_header_type }}" class="transparent"
+    data-sticky-type="{{ section.settings.sticky_header_type }}"
   {% endif %}
-  class="header-wrapper gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}"
+  class="header-wrapper gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}{% if header_tag == 'sticky-header' %}transparent{% endif %}"
 >
   {%- liquid
     assign social_links = false
